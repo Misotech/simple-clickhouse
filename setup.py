@@ -11,7 +11,7 @@ setup(
     long_description=Path('README.md').read_text(),
     long_description_content_type='text/markdown',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
-    url='https://github.com/madiedinro/simple-clickhouse',
+    url='https://github.com/Misotech/simple-clickhouse',
     include_package_data=True,
     install_requires=[
         'ujson>=2,<3', 
@@ -27,6 +27,6 @@ setup(
         'Programming Language :: Python :: 3.7',
     ],
     project_urls={  # Optional
-        'Homepage': 'https://github.com/madiedinro/simple-clickhouse'
+        'Homepage': 'https://github.com/Misotech/simple-clickhouse'
     }
 )
